@@ -4,8 +4,9 @@
 from random import *
 
 class Grille :
-    def __init__(self, nb_cases):
+    def __init__(self, nb_cases, niveau):
         self.nb_cases = nb_cases
+        self.niveau = niveau
         self.tableau =  []
 
     def creer_tableau(self):
