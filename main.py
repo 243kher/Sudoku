@@ -99,6 +99,143 @@ class Grille :
 
         return True
 
+    def tableau_case_vides(self, tableau):
+        """
+        Fonction qui renvoie une liste des tuples correspondant aux coordonnées des cases vides dans le tableau.
+
+        Args:
+            tableau (list): Le tableau de Sudoku.
+
+        Returns:
+            list: Liste des tuples (x, y) correspondant aux coordonnées des cases vides.
+        """
+        
+        liste = []
+        for t in range(len(tableau)):
+            for k in range(len(tableau)):
+                if tableau[t][k] == 0:
+                    liste.append((t, k))
+        return liste
+
+    def choix_possibles(self, tableau, x, y):
+        """
+        Retourne une liste de valeurs possibles pour la case (x, y).
+
+        Args:
+            tableau (list): Le tableau de Sudoku.
+            x (int): Coordonnée x de la case.
+            y (int): Coordonnée y de la case.
+
+        Returns:
+            list: Liste des valeurs possibles pour la case (x, y).
+        """
+
+
+        # Ensemble de toutes les valeurs possibles dans un Sudoku
+        valeurs_possibles = {0}
+
+        for k in range(1, self.nb_cases + 1):
+            valeurs_possibles.add(k)
+        valeurs_possibles.remove(0)
+
+        # Ensemble des valeurs présentes dans la même ligne que la case (x, y)
+        valeurs_ligne = {tableau[x][j] for j in range(self.nb_cases)}
+
+        # Ensemble des valeurs présentes dans la même colonne que la case (x, y)
+        valeurs_colonne = {tableau[i][y] for i in range(self.nb_cases)}
+
+        # Ensemble des valeurs présentes dans la même région que la case (x, y)
+        valeurs_region = {tableau[i][j] for i,j in self.indices_region(x,y)}
+
+        # Exclusion des valeurs déjà présentes de l'ensemble des valeurs possibles
+        valeurs_possibles -= valeurs_ligne | valeurs_colonne | valeurs_region
+
+        return list(valeurs_possibles)
+
+    def selectionner_case(self, tableau):
+
+        """
+        Retourne la prochaine case à remplir dans le tableau de Sudoku.
+
+        Args:
+            tableau (list): Le tableau de Sudoku.
+
+        Returns:
+            tuple: Coordonnées (x, y) de la case à remplir suivante, ou None si toutes les cases sont remplies.
+
+        Description:
+            Cette méthode identifie la case vide à remplir suivante dans le tableau de Sudoku.
+            Elle utilise la méthode `tableau_case_vides` pour obtenir une liste de toutes les cases vides.
+            Si aucune case vide n'est trouvée, la méthode renvoie None pour indiquer que toutes les cases sont remplies.
+            Sinon, la méthode utilise la fonction `min` avec une fonction lambda pour déterminer la case vide ayant le moins d'options possibles.
+            La fonction lambda renvoie la longueur de la liste des choix possibles pour chaque case vide, et `min` renvoie la case vide correspondante.
+        """
+
+        cases_vides = self.tableau_case_vides(tableau)
+        if len(cases_vides) == 0:
+            return None
+
+        return min(cases_vides, key=lambda case: len(self.choix_possibles(tableau, case[0], case[1])))
+
+    def ajouter_valeur(self, tableau, nb_ajouter, x, y):
+        """
+        Fonction qui ajoute une valeur donnée aux coordonnées spécifiées du tableau.
+
+        Args:
+            tableau (list): Le tableau de Sudoku.
+            nb_ajouter (int): La valeur à ajouter.
+            x (int): La coordonnée x de la case.
+            y (int): La coordonnée y de la case.
+        """
+
+        tableau[x][y] = nb_ajouter
+
+    def completer_sudoku(self, tableau):
+        """
+        Vérifie s'il est possible de compléter le Sudoku et retourne le tableau completé.
+
+        Args:
+            tableau (list): Le tableau de Sudoku à compléter.
+
+        Returns:
+            tuple: Un tuple (booléen, tableau) indiquant si le Sudoku a été complété avec succès et le tableau completé.
+
+        Description:
+            Cette méthode vérifie s'il est possible de compléter le Sudoku en utilisant une approche récursive.
+            Elle utilise une fonction interne `completer` pour effectuer la vérification récursive.
+            Si le Sudoku peut être complété, la méthode renvoie True et le tableau completé.
+            Sinon, elle renvoie False et le tableau partiellement rempli.
+        """
+
+
+        def completer(tableau):
+            """
+            Fonction récursive interne pour compléter le Sudoku.
+
+            Args:
+                tableau (list): Le tableau de Sudoku à compléter.
+
+            Returns:
+                bool: True si le Sudoku a été complété avec succès, False sinon.
+            """
+            if not self.tableau_case_vides(tableau):
+                return True
+            else:
+                x, y = self.selectionner_case(tableau)
+            for t in self.choix_possibles(tableau, x, y):
+                self.ajouter_valeur(tableau, t, x, y)
+                if completer(tableau):
+                    return True
+                self.ajouter_valeur(tableau, 0, x, y)
+            return False
+
+        nouveau_tableau = copy.deepcopy(tableau)
+
+        if completer(nouveau_tableau):
+            return True, nouveau_tableau
+        else:
+            return False, nouveau_tableau
+
 
 
 t=Grille(9)
