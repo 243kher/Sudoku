@@ -1,6 +1,13 @@
-#main
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Nov  2 10:24:43 2023
 
-from random import *
+@author: aya24
+"""
+
+#main
+import copy
+import random
 
 class Grille :
     def __init__(self, nb_cases):
@@ -236,8 +243,30 @@ class Grille :
         else:
             return False, nouveau_tableau
 
+    def creer_sudoku(self):
+        """
+        Fonction qui retourne un tableau de Sudoku en fonction du niveau de difficulté.
 
+        Returns:
+            tableau (list): Tableau de Sudoku généré.
 
+        Description:
+            Cette méthode génère un tableau de Sudoku en fonction du niveau de difficulté spécifié lors de l'initialisation de l'objet Sudoku.
+            Le tableau est généré en remplissant certaines cases avec des valeurs aléatoires et en vérifiant si le Sudoku peut être complété.
+            Si le Sudoku est impossible à compléter, les valeurs des cases précédemment remplies sont réinitialisées à zéro.
+        """
+
+        tableau = [[0] * 9 for i in range(9)] # Crée un tableau vide de 9x9
+
+        # Remplissage du tableau avec des valeurs aléatoires
+        for t in range(self.nb_cases**2):
+            x , y = random.randint(0,self.nb_cases-1),random.randint(0,self.nb_cases-1) # Sélectionne une case aléatoire
+            if tableau[x][y] == 0: # Vérifie si la case est vide
+                tableau[x][y] = random.choice(self.choix_possibles(tableau, x, y)) # Remplit la case avec une valeur aléatoire parmi les choix possibles
+                if not self.completer_sudoku(tableau)[0]:# Vérifie si le Sudoku peut être complété
+                    tableau[x][y] = 0
+        return tableau
+    
 t=Grille(9)
 t.creer_tableau()
 #Exemple pour voir si ca marche
@@ -266,4 +295,4 @@ sudoku_a_faire = [
     ]
 
 t.est_sudoku(sudoku_valide)
-print(t.est_sudoku(sudoku_valide))
+print(t.creer_sudoku())
