@@ -1,13 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov  2 10:24:43 2023
-
-@author: aya24
-"""
-
 #main
-import copy
+
 import random
+import copy
+import time
 
 class Grille :
     def __init__(self, nb_cases):
@@ -28,7 +23,7 @@ class Grille :
                 tableau += "-"*self.nb_cases
             tableau += "\n"
         return tableau
-    
+        
     def verifie_liste(self, liste):
         """
         Fonction qui renvoie True s'il y a n chiffres, de 1 à n, dans la liste,
@@ -123,6 +118,25 @@ class Grille :
                 if tableau[t][k] == 0:
                     liste.append((t, k))
         return liste
+
+    def tableau_case_non_vides(self, tableau):
+        """
+        Fonction qui renvoie une liste des tuples correspondant aux coordonnées des cases non vides dans le tableau.
+
+        Args:
+            tableau (list): Le tableau de Sudoku.
+
+        Returns:
+            list: Liste des tuples (x, y) correspondant aux coordonnées des cases non vides.
+        """
+        
+        liste = []
+        for t in range(len(tableau)):
+            for k in range(len(tableau)):
+                if not tableau[t][k] == 0:
+                    liste.append((t, k))
+        return liste
+
 
     def choix_possibles(self, tableau, x, y):
         """
@@ -243,6 +257,32 @@ class Grille :
         else:
             return False, nouveau_tableau
 
+
+    def creer_sudoku_complet(self):
+        """
+        Fonction qui retourne un tableau de Sudoku complet.
+
+        Returns:
+            tableau (list): Tableau de Sudoku généré.
+
+        Description:
+            Cette méthode génère un tableau de Sudoku en fonction du niveau de difficulté spécifié lors de l'initialisation de l'objet Sudoku.
+            Le tableau est généré en remplissant certaines cases avec des valeurs aléatoires et en vérifiant si le Sudoku peut être complété.
+            Si le Sudoku est impossible à compléter, les valeurs des cases précédemment remplies sont réinitialisées à zéro.
+        """
+
+        tableau = [[0 for _ in range(self.nb_cases)] for _ in range(self.nb_cases)]  # Crée un tableau vide
+
+        # Remplissage du tableau avec des valeurs aléatoires
+        while not self.tableau_case_vides(tableau) == []:
+            x , y = random.randint(0,self.nb_cases-1),random.randint(0,self.nb_cases-1) # Sélectionne une case aléatoire
+            if tableau[x][y] == 0: # Vérifie si la case est vide
+                tableau[x][y] = random.choice(self.choix_possibles(tableau, x, y)) # Remplit la case avec une valeur aléatoire parmi les choix possibles
+                if not self.completer_sudoku(tableau)[0]:# Vérifie si le Sudoku peut être complété
+                    tableau[x][y] = 0
+                    
+        return tableau
+
     def creer_sudoku(self):
         """
         Fonction qui retourne un tableau de Sudoku en fonction du niveau de difficulté.
@@ -256,20 +296,39 @@ class Grille :
             Si le Sudoku est impossible à compléter, les valeurs des cases précédemment remplies sont réinitialisées à zéro.
         """
 
-        tableau = [[0] * 9 for i in range(9)] # Crée un tableau vide de 9x9
 
-        # Remplissage du tableau avec des valeurs aléatoires
-        for t in range(self.nb_cases**2):
-            x , y = random.randint(0,self.nb_cases-1),random.randint(0,self.nb_cases-1) # Sélectionne une case aléatoire
-            if tableau[x][y] == 0: # Vérifie si la case est vide
-                tableau[x][y] = random.choice(self.choix_possibles(tableau, x, y)) # Remplit la case avec une valeur aléatoire parmi les choix possibles
-                if not self.completer_sudoku(tableau)[0]:# Vérifie si le Sudoku peut être complété
-                    tableau[x][y] = 0
+        tableau = self.creer_sudoku_complet()  # Crée un tableau complet de Sudoku
+        cases_non_vides=self.tableau_case_non_vides(tableau)
+        x, y= random.choice(cases_non_vides)
+        tableau[x][y] = 0
+        cases_non_vides.remove((x,y))
+        
+        while self.comptage_des_solution(tableau) == 1:
+            x, y= random.choice(cases_non_vides)
+            nb=tableau[x][y]
+            tableau[x][y] = 0
+            cases_non_vides.remove((x,y))
+        tableau[x][y]=nb
         return tableau
+    
+        
+    def comptage_des_solution(self, tableau):
+        
+        if not self.completer_sudoku(tableau)[0]:
+            return 0
+        if len(self.tableau_case_vides(tableau)) == 0:
+            return 1        
+        x,y = self.tableau_case_vides(tableau)[0]
+        comptage = 0
+        for valeur in self.choix_possibles(tableau, x, y):
+            tableau[x][y] = valeur 
+            result = self.comptage_des_solution(tableau)
+            comptage = comptage + result
+            tableau[x][y] = 0
+        return comptage
     
 t=Grille(9)
 t.creer_tableau()
-#Exemple pour voir si ca marche
 sudoku_valide = [
         [5, 3, 4, 6, 7, 8, 9, 1, 2],
         [6, 7, 2, 1, 9, 5, 3, 4, 8],
@@ -281,18 +340,20 @@ sudoku_valide = [
         [2, 8, 7, 4, 1, 9, 6, 3, 5],
         [3, 4, 5, 2, 8, 6, 1, 7, 9]
     ]
-
 sudoku_a_faire = [
-        [5, 3, 0, 0, 7, 0, 0, 0, 0],
+        [5, 0, 0, 0, 7, 0, 0, 0, 0],
         [6, 0, 0, 1, 9, 5, 0, 0, 0],
-        [0, 9, 8, 0, 0, 0, 0, 6, 0],
+        [0, 9, 8, 0, 0, 0, 0, 0, 0],
         [8, 0, 0, 0, 6, 0, 0, 0, 3],
         [4, 0, 0, 8, 0, 3, 0, 0, 1],
         [7, 0, 0, 0, 2, 0, 0, 0, 6],
-        [0, 6, 0, 0, 0, 0, 2, 8, 0],
+        [0, 6, 0, 0, 0, 0, 0, 8, 0],
         [0, 0, 0, 4, 1, 9, 0, 0, 5],
         [0, 0, 0, 0, 8, 0, 0, 7, 9]
     ]
+sudoku4 = [[2, 0, 1, 3], [1, 0, 0, 0], [0, 0, 2, 4], [0, 2, 0, 1]]
 
-t.est_sudoku(sudoku_valide)
-print(t.creer_sudoku())
+print(t.creer_sudoku()) 
+
+
+print(m-n)
