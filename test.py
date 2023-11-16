@@ -100,7 +100,6 @@ def test_tableau_case_non_vides():
         [0, 0, 0, 0, 8, 0, 0, 0, 0]]
 
     cases_non_vides = sudoku.tableau_case_non_vides(tableau)
-    print(cases_non_vides)
     assert cases_non_vides == [(0, 0), (0, 4), (1, 0), (1, 5), (2, 1), (2, 2), (2, 7), (3, 8), (4, 3), (4, 5), (4, 8), (5, 0), (5, 4), (6, 6), (7, 3), (7, 5), (7, 8), (8, 4)]
 
 
