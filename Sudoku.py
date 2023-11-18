@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
+from Grille import Grille
 
 class SudokuGUI:
     def __init__(self, interface):
