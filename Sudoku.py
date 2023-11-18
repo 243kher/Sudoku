@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Nov 18 18:27:18 2023
+
+@author: aya24
+"""
+
 import tkinter as tk
 from tkinter import messagebox
 from Grille import Grille
@@ -34,7 +41,7 @@ class SudokuGUI:
 
         for i in range(self.dimension.get()):
             for j in range(self.dimension.get()):
-                entree = tk.Entry(self.fenetre, width=4, font=('Arial', 16), justify='center')
+                entree = tk.Entry(self.fenetre, width=4, font=('Roboto', 16), justify='center')
                 entree.grid(row=i, column=j)
                 entree.insert(0, str(sudoku_tableau[i][j]))
 
@@ -51,7 +58,6 @@ class SudokuGUI:
         tableau_final = [int(entree.get()) for entree in self.fenetre.winfo_children() if isinstance(entree, tk.Entry)]
         solution_utilisateur = [tableau_final[i:i + self.dimension.get()] for i in range(0, len(tableau_final), self.dimension.get())]
     
-        # Verificar si el tamaño del Sudoku coincide con el esperado
         if len(solution_utilisateur) != self.dimension.get():
             messagebox.showerror("Erreur", "Une solution existe déjà.")
             return
