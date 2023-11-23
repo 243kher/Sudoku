@@ -1,0 +1,1100 @@
+Nb valeurs: 12, Temps ecoule: 2.98 milliseconds, Nb de possibilitées: 13 
+1 4 2 3 6 5 9 8 7
+6 9 8 1 4 7 3 5 2
+3 5 7 9 8 2 4 1 6
+9 2 1 6 5 4 7 3 8
+4 6 3 7 9 8 5 2 1
+7 8 5 2 3 1 6 9 4
+5 7 4 8 1 9 2 6 3
+2 1 6 5 7 3 8 4 9
+8 3 9 4 2 6 1 7 5
+
+Nb valeurs: 14, Temps ecoule: 2.98 milliseconds, Nb de possibilitées: 16 
+2 5 7 1 8 9 4 3 6
+3 1 4 2 5 6 8 9 7
+8 6 9 4 3 7 2 5 1
+1 9 2 6 7 3 5 4 8
+6 8 3 9 4 5 7 1 2
+4 7 5 8 2 1 9 6 3
+7 2 6 5 1 4 3 8 9
+9 4 8 3 6 2 1 7 5
+5 3 1 7 9 8 6 2 4
+
+Nb valeurs: 16, Temps ecoule: 3.01 milliseconds, Nb de possibilitées: 20 
+2 8 7 5 9 6 4 3 1
+9 3 1 7 4 2 8 5 6
+6 5 4 3 8 1 7 2 9
+3 6 9 2 5 8 1 7 4
+1 7 2 9 6 4 3 8 5
+5 4 8 1 3 7 9 6 2
+8 1 5 6 7 9 2 4 3
+7 9 6 4 2 3 5 1 8
+4 2 3 8 1 5 6 9 7
+
+Nb valeurs: 18, Temps ecoule: 3.00 milliseconds, Nb de possibilitées: 26 
+3 9 2 5 1 4 6 8 7
+1 7 8 3 6 2 4 9 5
+5 6 4 9 7 8 1 3 2
+9 4 7 2 3 1 5 6 8
+2 8 5 4 9 6 3 7 1
+6 3 1 8 5 7 2 4 9
+7 5 9 6 2 3 8 1 4
+4 1 3 7 8 5 9 2 6
+8 2 6 1 4 9 7 5 3
+
+Nb valeurs: 20, Temps ecoule: 6.00 milliseconds, Nb de possibilitées: 26 
+9 8 2 7 4 3 6 1 5
+7 5 3 1 6 8 9 2 4
+4 6 1 5 2 9 3 8 7
+5 9 4 6 7 1 2 3 8
+1 3 8 9 5 2 4 7 6
+6 2 7 8 3 4 5 9 1
+8 1 5 3 9 6 7 4 2
+2 7 9 4 8 5 1 6 3
+3 4 6 2 1 7 8 5 9
+
+Nb valeurs: 21, Temps ecoule: 5.99 milliseconds, Nb de possibilitées: 28 
+1 2 4 7 5 3 6 8 9
+8 6 5 9 2 1 7 3 4
+3 7 9 8 6 4 5 1 2
+2 5 8 1 9 6 4 7 3
+4 9 6 3 7 5 8 2 1
+7 3 1 2 4 8 9 5 6
+5 8 3 6 1 9 2 4 7
+6 4 2 5 3 7 1 9 8
+9 1 7 4 8 2 3 6 5
+
+Nb valeurs: 22, Temps ecoule: 6.01 milliseconds, Nb de possibilitées: 29 
+9 4 7 1 6 5 3 8 2
+8 6 5 3 2 9 1 4 7
+3 2 1 8 4 7 6 9 5
+7 3 6 4 5 8 2 1 9
+5 1 4 9 3 2 8 7 6
+2 9 8 6 7 1 5 3 4
+4 7 3 2 1 6 9 5 8
+1 8 2 5 9 4 7 6 3
+6 5 9 7 8 3 4 2 1
+
+Nb valeurs: 22, Temps ecoule: 3.02 milliseconds, Nb de possibilitées: 26 
+9 3 7 4 5 8 1 6 2
+4 6 8 2 7 1 9 3 5
+5 2 1 3 9 6 7 4 8
+7 1 4 8 6 3 5 2 9
+8 9 2 5 4 7 3 1 6
+6 5 3 9 1 2 8 7 4
+1 8 6 7 2 9 4 5 3
+2 4 9 1 3 5 6 8 7
+3 7 5 6 8 4 2 9 1
+
+Nb valeurs: 23, Temps ecoule: 9.11 milliseconds, Nb de possibilitées: 30 
+6 3 7 9 4 1 8 2 5
+2 1 5 6 7 8 9 4 3
+4 9 8 5 3 2 1 6 7
+7 6 4 1 5 9 3 8 2
+3 8 1 2 6 4 7 5 9
+9 5 2 3 8 7 4 1 6
+5 4 6 7 1 3 2 9 8
+8 7 9 4 2 5 6 3 1
+1 2 3 8 9 6 5 7 4
+
+Nb valeurs: 23, Temps ecoule: 5.87 milliseconds, Nb de possibilitées: 37 
+1 4 9 6 8 5 7 2 3
+8 7 6 9 2 3 5 4 1
+3 5 2 1 4 7 8 9 6
+9 2 7 5 3 6 1 8 4
+6 8 1 4 7 2 3 5 9
+4 3 5 8 9 1 6 7 2
+2 6 3 7 5 9 4 1 8
+5 9 4 3 1 8 2 6 7
+7 1 8 2 6 4 9 3 5
+
+Nb valeurs: 24, Temps ecoule: 6.01 milliseconds, Nb de possibilitées: 37 
+7 5 2 1 9 3 6 4 8
+4 1 9 2 8 6 5 7 3
+6 3 8 5 7 4 2 1 9
+1 8 6 4 5 7 9 3 2
+5 4 3 8 2 9 7 6 1
+2 9 7 3 6 1 8 5 4
+3 2 5 7 4 8 1 9 6
+8 6 1 9 3 5 4 2 7
+9 7 4 6 1 2 3 8 5
+
+Nb valeurs: 24, Temps ecoule: 9.04 milliseconds, Nb de possibilitées: 35 
+3 7 1 9 4 6 8 5 2
+2 4 5 8 3 7 1 9 6
+8 9 6 1 5 2 4 3 7
+5 3 7 6 9 8 2 4 1
+6 1 2 3 7 4 9 8 5
+4 8 9 2 1 5 7 6 3
+1 5 8 7 6 9 3 2 4
+7 2 4 5 8 3 6 1 9
+9 6 3 4 2 1 5 7 8
+
+Nb valeurs: 24, Temps ecoule: 5.95 milliseconds, Nb de possibilitées: 30 
+4 2 3 7 5 1 6 9 8
+7 6 1 2 8 9 4 5 3
+9 5 8 4 6 3 1 2 7
+5 9 4 1 3 2 8 7 6
+6 1 7 8 4 5 2 3 9
+3 8 2 9 7 6 5 1 4
+2 3 9 6 1 8 7 4 5
+1 4 6 5 9 7 3 8 2
+8 7 5 3 2 4 9 6 1
+
+Nb valeurs: 25, Temps ecoule: 6.03 milliseconds, Nb de possibilitées: 36 
+5 6 2 4 1 3 7 8 9
+7 8 4 6 9 2 5 3 1
+1 3 9 8 7 5 6 4 2
+6 9 7 5 2 8 4 1 3
+4 1 8 3 6 9 2 5 7
+2 5 3 7 4 1 9 6 8
+8 2 1 9 5 6 3 7 4
+9 7 5 1 3 4 8 2 6
+3 4 6 2 8 7 1 9 5
+
+Nb valeurs: 25, Temps ecoule: 5.98 milliseconds, Nb de possibilitées: 51 
+2 5 6 1 4 9 3 7 8
+8 4 1 3 7 6 2 9 5
+3 7 9 5 2 8 4 6 1
+4 6 8 2 3 1 9 5 7
+5 1 3 9 6 7 8 2 4
+7 9 2 4 8 5 6 1 3
+9 8 7 6 5 3 1 4 2
+1 2 5 8 9 4 7 3 6
+6 3 4 7 1 2 5 8 9
+
+Nb valeurs: 27, Temps ecoule: 9.00 milliseconds, Nb de possibilitées: 43 
+4 9 2 1 6 7 3 8 5
+8 7 5 2 4 3 6 1 9
+1 6 3 8 9 5 4 7 2
+6 4 8 9 2 1 7 5 3
+2 3 1 7 5 4 9 6 8
+7 5 9 3 8 6 1 2 4
+3 2 6 5 1 9 8 4 7
+5 1 7 4 3 8 2 9 6
+9 8 4 6 7 2 5 3 1
+
+Nb valeurs: 27, Temps ecoule: 6.03 milliseconds, Nb de possibilitées: 39 
+7 8 1 3 5 6 9 4 2
+2 6 5 9 4 7 3 8 1
+3 9 4 8 1 2 7 5 6
+1 7 8 2 6 9 5 3 4
+6 3 9 5 7 4 1 2 8
+4 5 2 1 3 8 6 9 7
+5 2 7 6 8 3 4 1 9
+9 1 6 4 2 5 8 7 3
+8 4 3 7 9 1 2 6 5
+
+Nb valeurs: 28, Temps ecoule: 8.99 milliseconds, Nb de possibilitées: 41 
+3 7 8 2 5 1 6 4 9
+5 1 2 6 4 9 8 3 7
+6 9 4 8 7 3 1 5 2
+7 8 5 1 9 6 4 2 3
+9 4 6 3 2 7 5 8 1
+1 2 3 4 8 5 7 9 6
+4 5 9 7 6 2 3 1 8
+8 6 1 9 3 4 2 7 5
+2 3 7 5 1 8 9 6 4
+
+Nb valeurs: 29, Temps ecoule: 9.00 milliseconds, Nb de possibilitées: 39 
+7 6 8 9 4 5 2 3 1
+9 2 5 3 1 6 8 7 4
+1 3 4 2 7 8 6 5 9
+6 5 1 4 8 2 3 9 7
+4 7 9 6 5 3 1 8 2
+2 8 3 1 9 7 4 6 5
+3 4 6 7 2 9 5 1 8
+5 9 2 8 3 1 7 4 6
+8 1 7 5 6 4 9 2 3
+
+Nb valeurs: 29, Temps ecoule: 8.99 milliseconds, Nb de possibilitées: 53 
+6 8 7 2 3 5 1 4 9
+3 1 4 9 8 6 5 7 2
+5 9 2 1 7 4 8 6 3
+8 7 6 4 5 9 2 3 1
+9 4 3 7 2 1 6 5 8
+1 2 5 8 6 3 4 9 7
+7 3 1 6 4 8 9 2 5
+4 5 9 3 1 2 7 8 6
+2 6 8 5 9 7 3 1 4
+
+Nb valeurs: 29, Temps ecoule: 9.00 milliseconds, Nb de possibilitées: 42 
+2 6 4 1 7 5 3 9 8
+3 1 8 6 9 4 2 7 5
+9 7 5 3 8 2 6 4 1
+1 8 3 9 5 6 7 2 4
+7 2 9 4 1 8 5 3 6
+5 4 6 2 3 7 1 8 9
+8 9 1 7 6 3 4 5 2
+4 5 7 8 2 1 9 6 3
+6 3 2 5 4 9 8 1 7
+
+Nb valeurs: 29, Temps ecoule: 11.97 milliseconds, Nb de possibilitées: 48 
+5 7 4 2 1 6 8 9 3
+6 2 3 7 8 9 4 5 1
+8 1 9 4 5 3 2 6 7
+3 9 1 8 4 5 7 2 6
+4 5 2 3 6 7 9 1 8
+7 6 8 9 2 1 5 3 4
+1 4 7 6 9 2 3 8 5
+9 8 5 1 3 4 6 7 2
+2 3 6 5 7 8 1 4 9
+
+Nb valeurs: 30, Temps ecoule: 9.06 milliseconds, Nb de possibilitées: 48 
+7 9 5 1 6 4 3 2 8
+4 1 2 3 8 7 9 6 5
+6 3 8 9 2 5 7 1 4
+3 7 1 8 4 9 2 5 6
+2 4 6 5 3 1 8 7 9
+8 5 9 6 7 2 4 3 1
+9 6 4 2 1 3 5 8 7
+5 8 3 7 9 6 1 4 2
+1 2 7 4 5 8 6 9 3
+
+Nb valeurs: 30, Temps ecoule: 8.98 milliseconds, Nb de possibilitées: 52 
+7 2 9 4 8 1 5 3 6
+8 6 5 3 7 9 2 4 1
+1 3 4 2 5 6 7 8 9
+9 4 2 7 6 8 1 5 3
+5 8 7 1 4 3 9 6 2
+3 1 6 9 2 5 8 7 4
+4 5 3 8 1 2 6 9 7
+2 9 8 6 3 7 4 1 5
+6 7 1 5 9 4 3 2 8
+
+Nb valeurs: 30, Temps ecoule: 8.96 milliseconds, Nb de possibilitées: 50 
+8 2 3 6 1 5 9 7 4
+6 5 9 2 4 7 1 8 3
+7 1 4 8 3 9 6 2 5
+4 7 1 3 9 6 2 5 8
+2 9 5 7 8 1 3 4 6
+3 6 8 5 2 4 7 1 9
+5 3 2 1 6 8 4 9 7
+9 8 6 4 7 2 5 3 1
+1 4 7 9 5 3 8 6 2
+
+Nb valeurs: 30, Temps ecoule: 9.05 milliseconds, Nb de possibilitées: 55 
+3 6 5 7 2 8 9 4 1
+8 9 2 4 1 6 7 5 3
+4 7 1 9 3 5 6 8 2
+7 3 6 1 8 2 4 9 5
+1 5 4 6 9 3 2 7 8
+2 8 9 5 7 4 1 3 6
+5 2 7 8 6 9 3 1 4
+6 1 8 3 4 7 5 2 9
+9 4 3 2 5 1 8 6 7
+
+Nb valeurs: 30, Temps ecoule: 8.95 milliseconds, Nb de possibilitées: 48 
+3 4 5 9 6 2 7 8 1
+8 7 6 4 1 5 3 2 9
+1 2 9 7 3 8 6 4 5
+5 1 3 8 4 6 9 7 2
+6 8 7 5 2 9 4 1 3
+2 9 4 3 7 1 8 5 6
+9 6 2 1 8 7 5 3 4
+4 5 8 2 9 3 1 6 7
+7 3 1 6 5 4 2 9 8
+
+Nb valeurs: 31, Temps ecoule: 12.01 milliseconds, Nb de possibilitées: 59 
+9 3 4 1 6 2 7 8 5
+2 8 6 5 4 7 1 3 9
+7 1 5 8 3 9 2 4 6
+4 5 9 7 2 6 8 1 3
+8 2 1 3 5 4 9 6 7
+6 7 3 9 1 8 5 2 4
+3 9 2 4 7 1 6 5 8
+1 4 7 6 8 5 3 9 2
+5 6 8 2 9 3 4 7 1
+
+Nb valeurs: 31, Temps ecoule: 9.01 milliseconds, Nb de possibilitées: 61 
+3 4 5 8 7 2 1 9 6
+8 9 1 6 3 4 7 5 2
+6 7 2 1 9 5 8 4 3
+1 3 7 4 5 8 6 2 9
+5 2 4 9 6 1 3 8 7
+9 6 8 3 2 7 5 1 4
+4 5 3 7 1 9 2 6 8
+7 1 9 2 8 6 4 3 5
+2 8 6 5 4 3 9 7 1
+
+Nb valeurs: 31, Temps ecoule: 12.01 milliseconds, Nb de possibilitées: 48 
+2 5 9 1 6 8 3 7 4
+4 8 7 9 5 3 1 2 6
+6 1 3 7 4 2 9 8 5
+5 7 8 6 3 4 2 9 1
+9 4 6 8 2 1 5 3 7
+3 2 1 5 9 7 6 4 8
+7 6 2 3 8 5 4 1 9
+1 9 4 2 7 6 8 5 3
+8 3 5 4 1 9 7 6 2
+
+Nb valeurs: 31, Temps ecoule: 8.99 milliseconds, Nb de possibilitées: 52 
+6 9 7 5 1 2 4 3 8
+1 4 2 8 6 3 5 9 7
+3 5 8 7 9 4 2 6 1
+7 3 9 4 2 1 8 5 6
+5 6 1 3 8 9 7 4 2
+2 8 4 6 5 7 9 1 3
+4 1 6 2 7 5 3 8 9
+8 7 3 9 4 6 1 2 5
+9 2 5 1 3 8 6 7 4
+
+Nb valeurs: 32, Temps ecoule: 11.99 milliseconds, Nb de possibilitées: 55 
+1 9 4 8 2 6 3 7 5
+7 6 2 9 5 3 8 1 4
+8 5 3 4 7 1 9 2 6
+4 1 7 2 8 9 5 6 3
+9 3 5 7 6 4 1 8 2
+2 8 6 1 3 5 7 4 9
+5 7 8 3 4 2 6 9 1
+6 4 1 5 9 7 2 3 8
+3 2 9 6 1 8 4 5 7
+
+Nb valeurs: 32, Temps ecoule: 9.00 milliseconds, Nb de possibilitées: 52 
+8 7 5 4 1 6 3 9 2
+4 9 1 3 7 2 8 5 6
+3 6 2 5 9 8 7 4 1
+1 3 9 8 4 7 2 6 5
+6 5 8 1 2 9 4 3 7
+7 2 4 6 5 3 9 1 8
+5 8 6 7 3 4 1 2 9
+2 4 7 9 6 1 5 8 3
+9 1 3 2 8 5 6 7 4
+
+Nb valeurs: 33, Temps ecoule: 9.01 milliseconds, Nb de possibilitées: 60 
+9 7 2 6 4 5 1 8 3
+4 6 3 1 8 7 5 9 2
+5 8 1 9 2 3 4 6 7
+6 9 8 2 3 1 7 5 4
+2 5 7 8 9 4 3 1 6
+3 1 4 7 5 6 8 2 9
+8 3 6 5 7 9 2 4 1
+7 2 9 4 1 8 6 3 5
+1 4 5 3 6 2 9 7 8
+
+Nb valeurs: 33, Temps ecoule: 11.98 milliseconds, Nb de possibilitées: 64 
+3 1 8 9 2 5 7 6 4
+4 9 5 6 7 3 8 2 1
+2 6 7 8 1 4 3 5 9
+6 3 1 4 5 8 2 9 7
+8 7 2 3 9 1 5 4 6
+9 5 4 2 6 7 1 3 8
+7 4 9 5 8 2 6 1 3
+5 8 3 1 4 6 9 7 2
+1 2 6 7 3 9 4 8 5
+
+Nb valeurs: 33, Temps ecoule: 9.01 milliseconds, Nb de possibilitées: 66 
+2 8 7 3 4 5 9 1 6
+3 6 9 8 1 7 4 5 2
+5 1 4 6 9 2 3 8 7
+4 2 1 7 3 6 8 9 5
+9 7 5 4 8 1 6 2 3
+6 3 8 5 2 9 7 4 1
+1 5 3 9 7 8 2 6 4
+8 4 2 1 6 3 5 7 9
+7 9 6 2 5 4 1 3 8
+
+Nb valeurs: 34, Temps ecoule: 11.99 milliseconds, Nb de possibilitées: 56 
+8 1 9 2 5 4 6 3 7
+7 6 2 9 8 3 4 5 1
+5 3 4 6 1 7 8 9 2
+9 2 5 3 4 6 1 7 8
+6 8 3 1 7 9 5 2 4
+1 4 7 5 2 8 9 6 3
+3 5 8 4 6 2 7 1 9
+4 9 6 7 3 1 2 8 5
+2 7 1 8 9 5 3 4 6
+
+Nb valeurs: 35, Temps ecoule: 15.04 milliseconds, Nb de possibilitées: 65 
+5 8 4 1 6 2 3 9 7
+7 2 9 5 4 3 1 6 8
+6 1 3 7 9 8 4 2 5
+1 3 7 2 5 4 6 8 9
+9 6 2 8 7 1 5 4 3
+4 5 8 6 3 9 2 7 1
+2 4 5 9 1 7 8 3 6
+8 7 6 3 2 5 9 1 4
+3 9 1 4 8 6 7 5 2
+
+Nb valeurs: 35, Temps ecoule: 11.98 milliseconds, Nb de possibilitées: 73 
+4 6 2 8 9 5 1 7 3
+3 5 8 4 7 1 6 2 9
+9 7 1 6 3 2 8 4 5
+2 4 6 9 5 8 7 3 1
+5 1 7 3 4 6 9 8 2
+8 3 9 1 2 7 4 5 6
+6 8 4 2 1 3 5 9 7
+1 2 5 7 8 9 3 6 4
+7 9 3 5 6 4 2 1 8
+
+Nb valeurs: 35, Temps ecoule: 12.00 milliseconds, Nb de possibilitées: 68 
+2 8 3 9 6 1 5 7 4
+7 4 5 8 3 2 1 6 9
+9 1 6 4 7 5 3 2 8
+5 3 8 2 9 7 4 1 6
+6 7 4 5 1 8 2 9 3
+1 2 9 6 4 3 7 8 5
+4 6 2 7 5 9 8 3 1
+3 9 7 1 8 4 6 5 2
+8 5 1 3 2 6 9 4 7
+
+Nb valeurs: 36, Temps ecoule: 15.00 milliseconds, Nb de possibilitées: 67 
+7 4 3 9 6 2 5 8 1
+1 9 6 3 8 5 7 2 4
+2 5 8 4 7 1 6 3 9
+8 1 9 2 5 6 3 4 7
+3 7 5 8 1 4 9 6 2
+4 6 2 7 3 9 1 5 8
+5 2 4 6 9 7 8 1 3
+9 8 1 5 2 3 4 7 6
+6 3 7 1 4 8 2 9 5
+
+Nb valeurs: 36, Temps ecoule: 12.01 milliseconds, Nb de possibilitées: 80 
+6 2 9 8 1 7 4 5 3
+4 1 3 2 6 5 7 8 9
+7 5 8 3 9 4 2 1 6
+3 7 1 4 2 6 8 9 5
+9 8 4 1 5 3 6 7 2
+2 6 5 9 7 8 1 3 4
+8 9 2 5 4 1 3 6 7
+1 4 7 6 3 9 5 2 8
+5 3 6 7 8 2 9 4 1
+
+Nb valeurs: 36, Temps ecoule: 12.00 milliseconds, Nb de possibilitées: 74 
+1 2 3 6 5 4 9 8 7
+6 4 8 7 1 9 3 5 2
+5 9 7 3 8 2 1 6 4
+2 1 5 9 4 7 8 3 6
+3 7 9 8 2 6 5 4 1
+8 6 4 5 3 1 7 2 9
+7 5 1 2 6 8 4 9 3
+4 8 2 1 9 3 6 7 5
+9 3 6 4 7 5 2 1 8
+
+Nb valeurs: 36, Temps ecoule: 12.00 milliseconds, Nb de possibilitées: 67 
+5 9 3 1 4 6 2 7 8
+6 8 1 3 2 7 9 4 5
+2 7 4 9 8 5 1 6 3
+9 5 7 2 3 1 6 8 4
+4 3 6 8 5 9 7 1 2
+1 2 8 6 7 4 3 5 9
+7 6 2 5 9 8 4 3 1
+3 4 5 7 1 2 8 9 6
+8 1 9 4 6 3 5 2 7
+
+Nb valeurs: 36, Temps ecoule: 12.00 milliseconds, Nb de possibilitées: 76 
+7 5 8 6 1 3 4 2 9
+3 4 9 2 8 5 7 6 1
+2 6 1 9 4 7 8 5 3
+1 8 7 5 9 4 6 3 2
+6 9 4 8 3 2 5 1 7
+5 2 3 7 6 1 9 4 8
+8 3 2 4 5 9 1 7 6
+4 7 6 1 2 8 3 9 5
+9 1 5 3 7 6 2 8 4
+
+Nb valeurs: 36, Temps ecoule: 14.99 milliseconds, Nb de possibilitées: 68 
+3 7 9 5 4 1 6 8 2
+2 6 4 8 9 3 5 7 1
+8 5 1 6 7 2 9 4 3
+4 1 7 3 2 9 8 5 6
+5 2 8 4 1 6 3 9 7
+9 3 6 7 8 5 2 1 4
+7 8 2 9 6 4 1 3 5
+1 9 3 2 5 7 4 6 8
+6 4 5 1 3 8 7 2 9
+
+Nb valeurs: 36, Temps ecoule: 12.00 milliseconds, Nb de possibilitées: 67 
+6 9 8 4 3 7 1 2 5
+5 2 4 9 8 1 3 7 6
+7 3 1 2 6 5 4 8 9
+1 7 6 8 2 4 9 5 3
+9 4 2 7 5 3 6 1 8
+8 5 3 6 1 9 7 4 2
+4 6 5 1 9 8 2 3 7
+2 8 7 3 4 6 5 9 1
+3 1 9 5 7 2 8 6 4
+
+Nb valeurs: 36, Temps ecoule: 12.00 milliseconds, Nb de possibilitées: 81 
+8 3 9 2 6 5 4 1 7
+4 2 6 1 8 7 3 9 5
+7 1 5 3 4 9 8 2 6
+6 5 3 9 2 1 7 8 4
+9 8 2 4 7 3 6 5 1
+1 4 7 6 5 8 2 3 9
+5 7 1 8 3 6 9 4 2
+3 9 4 7 1 2 5 6 8
+2 6 8 5 9 4 1 7 3
+
+Nb valeurs: 36, Temps ecoule: 15.00 milliseconds, Nb de possibilitées: 70 
+5 8 1 9 2 6 7 4 3
+3 2 4 8 1 7 9 5 6
+9 7 6 3 4 5 1 8 2
+8 1 3 2 9 4 6 7 5
+6 9 7 5 3 8 4 2 1
+2 4 5 6 7 1 8 3 9
+1 5 9 7 8 2 3 6 4
+4 6 8 1 5 3 2 9 7
+7 3 2 4 6 9 5 1 8
+
+Nb valeurs: 37, Temps ecoule: 12.00 milliseconds, Nb de possibilitées: 89 
+4 7 2 6 9 1 3 8 5
+3 1 8 2 4 5 9 6 7
+6 9 5 7 3 8 1 4 2
+8 6 9 3 5 4 7 2 1
+5 4 3 1 7 2 8 9 6
+1 2 7 9 8 6 4 5 3
+7 3 6 8 2 9 5 1 4
+9 5 1 4 6 3 2 7 8
+2 8 4 5 1 7 6 3 9
+
+Nb valeurs: 37, Temps ecoule: 11.99 milliseconds, Nb de possibilitées: 68 
+6 4 9 3 1 5 7 8 2
+8 2 5 9 4 7 1 6 3
+7 1 3 6 2 8 4 9 5
+4 5 8 2 9 3 6 1 7
+2 7 6 1 8 4 5 3 9
+9 3 1 5 7 6 8 2 4
+5 8 2 4 3 1 9 7 6
+3 6 7 8 5 9 2 4 1
+1 9 4 7 6 2 3 5 8
+
+Nb valeurs: 37, Temps ecoule: 15.01 milliseconds, Nb de possibilitées: 76 
+1 2 5 6 4 8 3 9 7
+6 8 7 3 1 9 4 5 2
+4 9 3 5 2 7 6 8 1
+3 1 9 2 7 5 8 4 6
+7 4 2 8 6 3 9 1 5
+5 6 8 4 9 1 2 7 3
+8 3 6 7 5 4 1 2 9
+2 5 1 9 8 6 7 3 4
+9 7 4 1 3 2 5 6 8
+
+Nb valeurs: 37, Temps ecoule: 15.01 milliseconds, Nb de possibilitées: 80 
+7 6 2 9 4 1 5 8 3
+8 3 4 6 5 7 2 9 1
+5 1 9 8 3 2 7 4 6
+6 9 1 3 8 5 4 7 2
+3 5 7 2 1 4 8 6 9
+2 4 8 7 6 9 1 3 5
+4 2 6 5 9 8 3 1 7
+9 8 5 1 7 3 6 2 4
+1 7 3 4 2 6 9 5 8
+
+Nb valeurs: 37, Temps ecoule: 12.03 milliseconds, Nb de possibilitées: 83 
+3 8 6 4 9 7 5 1 2
+2 7 4 5 8 1 9 6 3
+1 5 9 3 2 6 8 7 4
+6 3 1 8 4 2 7 5 9
+5 9 7 6 1 3 4 2 8
+4 2 8 7 5 9 6 3 1
+9 6 5 1 3 4 2 8 7
+7 4 3 2 6 8 1 9 5
+8 1 2 9 7 5 3 4 6
+
+Nb valeurs: 37, Temps ecoule: 14.95 milliseconds, Nb de possibilitées: 75 
+6 1 4 9 2 7 5 8 3
+9 2 8 5 3 6 1 4 7
+3 5 7 1 8 4 9 2 6
+4 9 1 2 7 3 6 5 8
+8 3 6 4 5 9 7 1 2
+2 7 5 8 6 1 4 3 9
+7 4 3 6 1 8 2 9 5
+5 8 9 7 4 2 3 6 1
+1 6 2 3 9 5 8 7 4
+
+Nb valeurs: 37, Temps ecoule: 12.06 milliseconds, Nb de possibilitées: 75 
+1 5 9 3 7 8 2 6 4
+8 4 6 1 2 9 5 7 3
+2 3 7 4 6 5 8 9 1
+3 7 5 9 8 2 4 1 6
+4 1 8 5 3 6 7 2 9
+6 9 2 7 1 4 3 5 8
+5 8 1 6 4 7 9 3 2
+9 6 4 2 5 3 1 8 7
+7 2 3 8 9 1 6 4 5
+
+Nb valeurs: 37, Temps ecoule: 14.97 milliseconds, Nb de possibilitées: 70 
+3 1 6 2 9 5 8 4 7
+9 5 4 1 7 8 6 2 3
+2 7 8 4 3 6 1 5 9
+4 8 3 9 5 2 7 6 1
+7 6 2 3 1 4 9 8 5
+1 9 5 8 6 7 4 3 2
+5 3 1 6 8 9 2 7 4
+8 2 9 7 4 3 5 1 6
+6 4 7 5 2 1 3 9 8
+
+Nb valeurs: 38, Temps ecoule: 15.00 milliseconds, Nb de possibilitées: 90 
+1 3 9 5 7 8 4 6 2
+8 7 6 9 2 4 5 1 3
+5 4 2 6 1 3 7 9 8
+9 1 5 2 4 7 8 3 6
+3 2 4 1 8 6 9 7 5
+6 8 7 3 5 9 1 2 4
+4 9 3 7 6 5 2 8 1
+7 5 1 8 3 2 6 4 9
+2 6 8 4 9 1 3 5 7
+
+Nb valeurs: 38, Temps ecoule: 12.01 milliseconds, Nb de possibilitées: 97 
+8 3 2 1 7 5 6 4 9
+7 9 1 6 4 2 5 8 3
+6 5 4 9 8 3 2 1 7
+1 2 3 5 9 8 7 6 4
+5 8 6 4 1 7 9 3 2
+4 7 9 3 2 6 1 5 8
+3 1 7 8 6 9 4 2 5
+2 4 5 7 3 1 8 9 6
+9 6 8 2 5 4 3 7 1
+
+Nb valeurs: 38, Temps ecoule: 15.11 milliseconds, Nb de possibilitées: 99 
+4 8 7 2 3 9 5 6 1
+3 6 5 8 1 7 9 2 4
+1 2 9 6 4 5 8 7 3
+6 9 3 7 5 8 4 1 2
+7 4 8 9 2 1 6 3 5
+5 1 2 4 6 3 7 8 9
+2 3 4 5 7 6 1 9 8
+9 5 6 1 8 2 3 4 7
+8 7 1 3 9 4 2 5 6
+
+Nb valeurs: 38, Temps ecoule: 11.88 milliseconds, Nb de possibilitées: 83 
+8 2 6 3 9 7 1 5 4
+3 4 9 6 1 5 8 2 7
+5 7 1 2 8 4 3 6 9
+4 8 2 1 7 9 6 3 5
+1 6 5 4 3 8 9 7 2
+7 9 3 5 6 2 4 1 8
+2 1 7 8 4 3 5 9 6
+6 5 4 9 2 1 7 8 3
+9 3 8 7 5 6 2 4 1
+
+Nb valeurs: 39, Temps ecoule: 15.01 milliseconds, Nb de possibilitées: 90 
+6 3 9 8 1 2 7 4 5
+5 2 4 9 3 7 6 8 1
+8 7 1 5 6 4 3 9 2
+4 8 2 3 7 9 5 1 6
+1 9 3 6 2 5 4 7 8
+7 6 5 1 4 8 2 3 9
+3 5 8 7 9 6 1 2 4
+2 1 6 4 8 3 9 5 7
+9 4 7 2 5 1 8 6 3
+
+Nb valeurs: 39, Temps ecoule: 14.99 milliseconds, Nb de possibilitées: 85 
+1 3 4 7 8 6 9 5 2
+8 2 9 1 4 5 6 7 3
+6 5 7 2 3 9 1 4 8
+4 6 2 9 5 7 8 3 1
+7 8 1 3 2 4 5 9 6
+5 9 3 8 6 1 7 2 4
+9 1 6 4 7 3 2 8 5
+2 4 5 6 9 8 3 1 7
+3 7 8 5 1 2 4 6 9
+
+Nb valeurs: 39, Temps ecoule: 12.02 milliseconds, Nb de possibilitées: 94 
+6 3 8 5 7 1 4 9 2
+5 7 9 8 4 2 1 6 3
+2 1 4 3 6 9 7 5 8
+4 8 7 1 5 6 3 2 9
+1 2 6 4 9 3 5 8 7
+9 5 3 7 2 8 6 1 4
+7 4 2 9 1 5 8 3 6
+3 6 5 2 8 4 9 7 1
+8 9 1 6 3 7 2 4 5
+
+Nb valeurs: 39, Temps ecoule: 14.97 milliseconds, Nb de possibilitées: 93 
+3 6 5 9 8 1 7 2 4
+4 8 1 2 6 7 9 3 5
+9 2 7 5 4 3 1 6 8
+5 1 2 3 9 4 6 8 7
+7 9 4 8 2 6 5 1 3
+6 3 8 7 1 5 4 9 2
+8 5 9 6 7 2 3 4 1
+2 4 3 1 5 9 8 7 6
+1 7 6 4 3 8 2 5 9
+
+Nb valeurs: 39, Temps ecoule: 15.09 milliseconds, Nb de possibilitées: 95 
+2 3 8 4 5 7 1 9 6
+1 6 4 9 2 8 3 5 7
+9 5 7 1 6 3 2 8 4
+3 1 2 5 4 6 8 7 9
+7 4 9 8 3 1 5 6 2
+6 8 5 7 9 2 4 1 3
+4 9 1 2 7 5 6 3 8
+8 7 3 6 1 4 9 2 5
+5 2 6 3 8 9 7 4 1
+
+Nb valeurs: 39, Temps ecoule: 14.92 milliseconds, Nb de possibilitées: 83 
+7 2 6 3 5 1 4 9 8
+4 5 1 6 9 8 7 2 3
+8 3 9 7 4 2 1 5 6
+9 8 3 4 7 5 2 6 1
+5 1 7 2 8 6 3 4 9
+2 6 4 9 1 3 8 7 5
+1 4 2 8 6 9 5 3 7
+6 7 5 1 3 4 9 8 2
+3 9 8 5 2 7 6 1 4
+
+Nb valeurs: 40, Temps ecoule: 15.00 milliseconds, Nb de possibilitées: 88 
+9 5 6 3 8 7 1 2 4
+2 7 3 6 1 4 9 8 5
+4 1 8 2 5 9 6 3 7
+8 6 9 4 3 2 7 5 1
+1 4 2 5 7 8 3 6 9
+5 3 7 1 9 6 2 4 8
+3 8 4 9 2 1 5 7 6
+7 2 1 8 6 5 4 9 3
+6 9 5 7 4 3 8 1 2
+
+Nb valeurs: 40, Temps ecoule: 17.99 milliseconds, Nb de possibilitées: 84 
+1 6 4 7 9 8 3 5 2
+5 2 3 4 6 1 8 9 7
+7 9 8 2 3 5 1 6 4
+9 7 1 3 5 6 2 4 8
+4 5 2 1 8 7 9 3 6
+3 8 6 9 4 2 7 1 5
+8 3 9 6 7 4 5 2 1
+6 1 7 5 2 3 4 8 9
+2 4 5 8 1 9 6 7 3
+
+Nb valeurs: 40, Temps ecoule: 15.00 milliseconds, Nb de possibilitées: 108 
+9 6 5 1 2 3 7 4 8
+3 1 7 8 4 6 2 9 5
+4 2 8 5 9 7 6 3 1
+1 7 2 3 6 5 4 8 9
+5 8 3 9 7 4 1 6 2
+6 9 4 2 8 1 3 5 7
+8 3 1 4 5 2 9 7 6
+2 5 6 7 3 9 8 1 4
+7 4 9 6 1 8 5 2 3
+
+Nb valeurs: 40, Temps ecoule: 21.01 milliseconds, Nb de possibilitées: 95 
+6 9 8 2 5 4 3 1 7
+1 5 7 3 8 6 4 2 9
+4 3 2 9 7 1 5 8 6
+8 4 5 7 3 2 6 9 1
+9 1 6 5 4 8 7 3 2
+2 7 3 1 6 9 8 4 5
+7 8 1 4 2 5 9 6 3
+3 2 4 6 9 7 1 5 8
+5 6 9 8 1 3 2 7 4
+
+Nb valeurs: 40, Temps ecoule: 15.00 milliseconds, Nb de possibilitées: 85 
+1 8 3 6 7 9 2 4 5
+6 5 4 8 1 2 3 7 9
+9 7 2 5 4 3 6 1 8
+4 3 5 2 6 8 7 9 1
+2 1 6 7 9 5 8 3 4
+7 9 8 1 3 4 5 6 2
+3 2 9 4 8 6 1 5 7
+5 4 7 3 2 1 9 8 6
+8 6 1 9 5 7 4 2 3
+
+Nb valeurs: 40, Temps ecoule: 15.06 milliseconds, Nb de possibilitées: 93 
+8 1 9 7 5 6 3 4 2
+3 7 4 1 2 8 5 6 9
+2 6 5 3 9 4 7 8 1
+7 5 2 6 8 3 1 9 4
+4 3 6 5 1 9 8 2 7
+9 8 1 4 7 2 6 5 3
+6 2 7 8 4 1 9 3 5
+5 4 3 9 6 7 2 1 8
+1 9 8 2 3 5 4 7 6
+
+Nb valeurs: 40, Temps ecoule: 14.95 milliseconds, Nb de possibilitées: 92 
+2 3 8 1 6 9 5 7 4
+5 4 9 3 7 2 8 1 6
+1 6 7 5 4 8 2 3 9
+6 7 2 4 9 1 3 8 5
+9 5 3 6 8 7 4 2 1
+4 8 1 2 5 3 6 9 7
+8 1 5 9 3 4 7 6 2
+3 2 4 7 1 6 9 5 8
+7 9 6 8 2 5 1 4 3
+
+Nb valeurs: 41, Temps ecoule: 17.99 milliseconds, Nb de possibilitées: 99 
+4 5 1 3 9 7 8 2 6
+9 7 2 8 1 6 4 3 5
+6 8 3 4 2 5 9 7 1
+2 9 8 5 4 1 7 6 3
+7 6 5 9 3 2 1 8 4
+1 3 4 6 7 8 2 5 9
+5 1 6 7 8 9 3 4 2
+3 2 7 1 5 4 6 9 8
+8 4 9 2 6 3 5 1 7
+
+Nb valeurs: 41, Temps ecoule: 14.99 milliseconds, Nb de possibilitées: 104 
+8 5 3 2 9 4 6 1 7
+6 4 9 7 1 5 8 2 3
+1 7 2 6 3 8 9 5 4
+5 2 6 1 4 7 3 8 9
+9 8 4 5 6 3 1 7 2
+7 3 1 8 2 9 5 4 6
+4 9 8 3 5 2 7 6 1
+3 6 7 4 8 1 2 9 5
+2 1 5 9 7 6 4 3 8
+
+Nb valeurs: 41, Temps ecoule: 18.02 milliseconds, Nb de possibilitées: 91 
+4 6 9 7 5 8 1 2 3
+3 7 2 9 1 6 5 8 4
+5 1 8 3 4 2 9 7 6
+8 3 1 5 9 7 6 4 2
+9 2 7 6 8 4 3 5 1
+6 4 5 1 2 3 7 9 8
+2 9 3 8 6 5 4 1 7
+1 8 6 4 7 9 2 3 5
+7 5 4 2 3 1 8 6 9
+
+Nb valeurs: 42, Temps ecoule: 15.05 milliseconds, Nb de possibilitées: 95 
+7 5 3 6 8 4 2 9 1
+1 9 4 5 2 7 3 6 8
+8 6 2 3 9 1 4 7 5
+5 2 9 7 3 6 8 1 4
+3 1 8 9 4 2 7 5 6
+6 4 7 1 5 8 9 2 3
+4 8 6 2 1 9 5 3 7
+2 7 5 4 6 3 1 8 9
+9 3 1 8 7 5 6 4 2
+
+Nb valeurs: 42, Temps ecoule: 17.92 milliseconds, Nb de possibilitées: 87 
+7 1 5 3 4 2 9 6 8
+9 6 3 7 8 1 5 4 2
+8 4 2 6 5 9 7 1 3
+4 2 6 9 7 5 3 8 1
+1 3 9 8 2 4 6 7 5
+5 7 8 1 3 6 4 2 9
+6 5 1 4 9 8 2 3 7
+2 8 7 5 6 3 1 9 4
+3 9 4 2 1 7 8 5 6
+
+Nb valeurs: 42, Temps ecoule: 14.99 milliseconds, Nb de possibilitées: 98 
+9 7 4 6 3 5 8 1 2
+3 2 8 1 7 4 5 6 9
+1 6 5 9 8 2 7 3 4
+7 9 2 5 4 6 1 8 3
+8 5 3 2 1 7 4 9 6
+4 1 6 8 9 3 2 7 5
+5 3 9 7 2 1 6 4 8
+6 4 1 3 5 8 9 2 7
+2 8 7 4 6 9 3 5 1
+
+Nb valeurs: 42, Temps ecoule: 18.00 milliseconds, Nb de possibilitées: 112 
+3 6 5 1 8 9 4 7 2
+7 4 8 2 5 3 9 1 6
+9 1 2 6 4 7 5 8 3
+6 2 3 4 7 8 1 5 9
+8 5 1 3 9 2 7 6 4
+4 9 7 5 6 1 3 2 8
+2 8 4 7 3 5 6 9 1
+1 7 6 9 2 4 8 3 5
+5 3 9 8 1 6 2 4 7
+
+Nb valeurs: 42, Temps ecoule: 18.00 milliseconds, Nb de possibilitées: 101 
+4 9 3 2 8 5 6 7 1
+1 5 8 3 7 6 2 9 4
+6 2 7 9 1 4 8 3 5
+9 6 5 1 3 8 7 4 2
+8 3 2 5 4 7 9 1 6
+7 1 4 6 9 2 5 8 3
+3 4 6 8 5 9 1 2 7
+2 8 1 7 6 3 4 5 9
+5 7 9 4 2 1 3 6 8
+
+Nb valeurs: 42, Temps ecoule: 15.00 milliseconds, Nb de possibilitées: 107 
+8 2 5 6 7 9 4 1 3
+7 4 9 5 1 3 8 2 6
+1 6 3 4 8 2 9 7 5
+6 1 4 9 2 7 3 5 8
+2 3 8 1 5 4 7 6 9
+5 9 7 3 6 8 1 4 2
+9 7 2 8 4 6 5 3 1
+3 5 6 7 9 1 2 8 4
+4 8 1 2 3 5 6 9 7
+
+Nb valeurs: 43, Temps ecoule: 33.00 milliseconds, Nb de possibilitées: 125 
+6 9 3 2 7 5 4 8 1
+5 8 1 6 4 9 2 7 3
+4 2 7 8 1 3 9 6 5
+1 4 2 7 3 6 5 9 8
+3 6 9 4 5 8 1 2 7
+8 7 5 1 9 2 6 3 4
+2 3 4 5 6 7 8 1 9
+7 1 6 9 8 4 3 5 2
+9 5 8 3 2 1 7 4 6
+
+Nb valeurs: 43, Temps ecoule: 18.04 milliseconds, Nb de possibilitées: 116 
+5 9 6 7 1 8 2 3 4
+3 8 4 9 2 5 1 6 7
+2 7 1 6 4 3 5 9 8
+9 4 5 8 3 6 7 1 2
+1 3 7 4 5 2 6 8 9
+8 6 2 1 9 7 4 5 3
+6 5 3 2 7 9 8 4 1
+7 1 9 5 8 4 3 2 6
+4 2 8 3 6 1 9 7 5
+
+Nb valeurs: 43, Temps ecoule: 17.99 milliseconds, Nb de possibilitées: 108 
+8 6 9 3 5 4 7 2 1
+5 1 3 2 7 8 4 6 9
+4 7 2 1 9 6 5 3 8
+3 2 8 4 6 7 9 1 5
+9 4 6 5 1 3 8 7 2
+1 5 7 9 8 2 3 4 6
+6 3 1 8 4 5 2 9 7
+2 9 5 7 3 1 6 8 4
+7 8 4 6 2 9 1 5 3
+
+Nb valeurs: 43, Temps ecoule: 17.98 milliseconds, Nb de possibilitées: 96 
+5 3 8 4 7 6 2 9 1
+1 6 7 2 5 9 8 3 4
+4 9 2 8 3 1 7 5 6
+7 8 5 6 1 4 9 2 3
+6 2 4 3 9 5 1 7 8
+9 1 3 7 8 2 6 4 5
+3 7 6 5 2 8 4 1 9
+8 5 1 9 4 7 3 6 2
+2 4 9 1 6 3 5 8 7
+
+Nb valeurs: 44, Temps ecoule: 18.02 milliseconds, Nb de possibilitées: 115 
+5 3 2 9 7 1 6 4 8
+9 4 6 2 8 5 1 7 3
+8 7 1 6 3 4 2 9 5
+6 9 5 3 4 2 7 8 1
+1 2 3 7 6 8 9 5 4
+4 8 7 5 1 9 3 6 2
+7 1 9 4 5 3 8 2 6
+2 5 8 1 9 6 4 3 7
+3 6 4 8 2 7 5 1 9
+
+Nb valeurs: 44, Temps ecoule: 20.98 milliseconds, Nb de possibilitées: 126 
+6 8 4 5 1 7 3 9 2
+5 1 2 8 3 9 7 4 6
+7 3 9 6 4 2 8 5 1
+1 2 5 7 8 4 9 6 3
+8 4 6 9 2 3 5 1 7
+3 9 7 1 5 6 4 2 8
+4 6 3 2 7 5 1 8 9
+9 7 8 4 6 1 2 3 5
+2 5 1 3 9 8 6 7 4
+
+Nb valeurs: 45, Temps ecoule: 18.00 milliseconds, Nb de possibilitées: 134 
+1 2 9 4 3 5 6 7 8
+3 8 7 9 6 2 1 5 4
+5 4 6 8 7 1 3 9 2
+7 3 8 1 5 9 4 2 6
+2 6 5 7 4 3 9 8 1
+9 1 4 6 2 8 5 3 7
+4 5 1 2 9 7 8 6 3
+6 9 2 3 8 4 7 1 5
+8 7 3 5 1 6 2 4 9
+
+Nb valeurs: 46, Temps ecoule: 20.98 milliseconds, Nb de possibilitées: 147 
+8 7 9 4 5 6 1 3 2
+4 1 6 9 3 2 5 8 7
+5 2 3 8 1 7 6 9 4
+9 8 2 5 6 4 3 7 1
+7 6 4 3 8 1 9 2 5
+1 3 5 7 2 9 4 6 8
+2 9 1 6 4 8 7 5 3
+6 5 8 1 7 3 2 4 9
+3 4 7 2 9 5 8 1 6
+
+Nb valeurs: 46, Temps ecoule: 18.02 milliseconds, Nb de possibilitées: 126 
+9 5 7 2 1 4 6 8 3
+3 1 6 7 8 9 2 5 4
+4 8 2 5 6 3 9 7 1
+2 4 3 1 9 7 5 6 8
+1 7 5 8 2 6 4 3 9
+8 6 9 4 3 5 7 1 2
+6 9 1 3 5 2 8 4 7
+7 2 8 6 4 1 3 9 5
+5 3 4 9 7 8 1 2 6
+
+Nb valeurs: 47, Temps ecoule: 23.99 milliseconds, Nb de possibilitées: 144 
+1 3 5 8 4 7 2 6 9
+8 9 7 2 6 5 4 1 3
+4 2 6 3 9 1 7 5 8
+3 6 4 5 8 9 1 2 7
+2 5 9 1 7 6 3 8 4
+7 1 8 4 3 2 6 9 5
+9 4 3 6 1 8 5 7 2
+6 8 2 7 5 3 9 4 1
+5 7 1 9 2 4 8 3 6
+
+Nb valeurs: 47, Temps ecoule: 21.01 milliseconds, Nb de possibilitées: 129 
+3 5 1 9 8 6 2 4 7
+9 4 2 1 5 7 8 3 6
+6 8 7 4 2 3 9 1 5
+1 6 8 5 7 4 3 2 9
+2 9 4 3 6 8 7 5 1
+5 7 3 2 1 9 4 6 8
+7 2 9 6 3 5 1 8 4
+4 3 5 8 9 1 6 7 2
+8 1 6 7 4 2 5 9 3
+
+Nb valeurs: 47, Temps ecoule: 20.97 milliseconds, Nb de possibilitées: 141 
+7 9 2 3 4 6 8 5 1
+5 6 1 9 7 8 4 2 3
+4 8 3 2 1 5 6 7 9
+1 7 9 4 5 2 3 6 8
+3 4 5 8 6 7 1 9 2
+8 2 6 1 9 3 7 4 5
+9 5 8 7 3 4 2 1 6
+6 3 4 5 2 1 9 8 7
+2 1 7 6 8 9 5 3 4
+
+Nb valeurs: 47, Temps ecoule: 21.01 milliseconds, Nb de possibilitées: 130 
+1 2 3 5 9 4 6 7 8
+6 8 7 1 3 2 5 4 9
+5 9 4 6 8 7 3 1 2
+2 7 9 8 4 6 1 3 5
+4 6 5 9 1 3 2 8 7
+3 1 8 7 2 5 9 6 4
+7 3 2 4 5 1 8 9 6
+8 5 6 3 7 9 4 2 1
+9 4 1 2 6 8 7 5 3
+
+Nb valeurs: 47, Temps ecoule: 21.02 milliseconds, Nb de possibilitées: 147 
+7 6 1 2 5 8 9 3 4
+5 9 4 7 1 3 6 2 8
+8 3 2 6 4 9 1 5 7
+4 2 3 9 6 7 5 8 1
+9 8 5 4 2 1 3 7 6
+6 1 7 3 8 5 4 9 2
+2 7 9 1 3 6 8 4 5
+1 4 8 5 9 2 7 6 3
+3 5 6 8 7 4 2 1 9
+
+Nb valeurs: 50, Temps ecoule: 45.00 milliseconds, Nb de possibilitées: 163 
+5 2 9 6 7 4 8 3 1
+8 3 7 1 2 5 6 4 9
+6 1 4 9 8 3 5 2 7
+3 5 6 2 4 1 7 9 8
+1 9 2 7 6 8 4 5 3
+4 7 8 3 5 9 2 1 6
+7 4 1 5 9 6 3 8 2
+2 8 3 4 1 7 9 6 5
+9 6 5 8 3 2 1 7 4
+
+Nb valeurs: 51, Temps ecoule: 24.01 milliseconds, Nb de possibilitées: 174 
+3 7 6 8 1 2 9 5 4
+1 2 9 4 5 3 7 8 6
+4 8 5 9 7 6 2 3 1
+2 5 4 1 6 8 3 9 7
+6 9 1 7 3 5 8 4 2
+7 3 8 2 4 9 1 6 5
+9 1 7 5 8 4 6 2 3
+5 6 2 3 9 7 4 1 8
+8 4 3 6 2 1 5 7 9
+
+Nb valeurs: 53, Temps ecoule: 101.99 milliseconds, Nb de possibilitées: 190 
+6 1 5 2 8 3 4 7 9
+2 4 9 5 1 7 6 8 3
+8 7 3 6 4 9 1 2 5
+4 3 6 7 9 8 5 1 2
+5 2 7 1 6 4 3 9 8
+9 8 1 3 2 5 7 6 4
+1 6 8 4 3 2 9 5 7
+3 5 2 9 7 6 8 4 1
+7 9 4 8 5 1 2 3 6
+
