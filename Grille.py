@@ -1,6 +1,5 @@
 import random
 import copy
-import time
 
 class Grille :
     def __init__(self, nb_cases):
@@ -11,6 +10,12 @@ class Grille :
         self.tableau =  [[0 for t in range(self.nb_cases)] for i in range(self.nb_cases)]
 
     def __str__(self):
+        """
+        Fonction qui renvoie le sudoku en forme de str
+
+        Returns:
+            str: sudoku 
+        """
         tableau = ""
         for t in range(self.nb_cases):
             tableau += "| "
@@ -71,11 +76,6 @@ class Grille :
         Returns:
             bool: True si le tableau est un Sudoku valide, False sinon.
         """
-        for ligne in tableau:
-            assert isinstance(ligne, list), "Chaque ligne du tableau doit être une liste"
-            assert len(ligne) == 9, "Chaque ligne du tableau doit contenir 9 éléments"
-
-            assert all(isinstance(element, int) for element in ligne), "Chaque élément du tableau doit être un entier"
 
         # Vérification des lignes et des colonnes
         for t in range(len(tableau)):
@@ -151,11 +151,7 @@ class Grille :
 
 
         # Ensemble de toutes les valeurs possibles dans un Sudoku
-        valeurs_possibles = {0}
-
-        for k in range(1, self.nb_cases + 1):
-            valeurs_possibles.add(k)
-        valeurs_possibles.remove(0)
+        valeurs_possibles = set(range(1, self.nb_cases + 1))
 
         # Ensemble des valeurs présentes dans la même ligne que la case (x, y)
         valeurs_ligne = {tableau[x][j] for j in range(self.nb_cases)}
@@ -261,10 +257,10 @@ class Grille :
         Fonction qui retourne un tableau de Sudoku complet.
 
         Returns:
-            tableau (list): Tableau de Sudoku généré.
+            tableau (list): Tableau de Sudoku généré complété.
 
         Description:
-            Cette méthode génère un tableau de Sudoku en fonction du niveau de difficulté spécifié lors de l'initialisation de l'objet Sudoku.
+            Cette méthode génère un tableau de Sudoku.
             Le tableau est généré en remplissant certaines cases avec des valeurs aléatoires et en vérifiant si le Sudoku peut être complété.
             Si le Sudoku est impossible à compléter, les valeurs des cases précédemment remplies sont réinitialisées à zéro.
         """
@@ -283,15 +279,15 @@ class Grille :
 
     def creer_sudoku(self):
         """
-        Fonction qui retourne un tableau de Sudoku en fonction du niveau de difficulté.
+        Fonction qui retourne un tableau de Sudoku.
 
         Returns:
             tableau (list): Tableau de Sudoku généré.
 
         Description:
-            Cette méthode génère un tableau de Sudoku en fonction du niveau de difficulté spécifié lors de l'initialisation de l'objet Sudoku.
-            Le tableau est généré en remplissant certaines cases avec des valeurs aléatoires et en vérifiant si le Sudoku peut être complété.
-            Si le Sudoku est impossible à compléter, les valeurs des cases précédemment remplies sont réinitialisées à zéro.
+            Cette méthode génère un tableau de Sudoku avec une seule solution.
+            A partir d'un sudoku complet genere par la methode creer_sudoku_complet(). 
+            Les cases vont etre vidées, jusqu'a que le sudoku n'ait qu'une seul solution.
         """
 
 
@@ -311,7 +307,18 @@ class Grille :
     
         
     def comptage_des_solution(self, tableau):
-        
+        """
+        Fonction qui compte le nombre de solution d'un sudoku.
+
+        Args:
+            tableau (list): Tableau de Sudoku.
+
+        Returns:
+            comptage (int): Nombre de solutions
+
+        Description:
+            Cette méthode compte de maniere recursif le nombre de solution que un sudoku incomplet pourrait avoir.
+        """
         if not self.completer_sudoku(tableau)[0]:
             return 0
         if len(self.tableau_case_vides(tableau)) == 0:
@@ -325,3 +332,5 @@ class Grille :
             tableau[x][y] = 0
         return comptage
     
+
+ 
