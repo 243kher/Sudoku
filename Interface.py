@@ -16,9 +16,9 @@ class SudokuGUI:
         self.dimension = tk.IntVar()
         self.sudoku_jeu = None
         self.fenetre = None
-        self.create_widgets()
+        self.creer_fenetre()
 
-    def create_widgets(self):
+    def creer_fenetre(self):
         """
         Fonction qui genere la premiere fenetre 
         pour nous donner le choix entre un sudoku 4*4 ou 9*9.
