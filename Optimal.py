@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 16 09:23:54 2023
 
-@author: aya24
-"""
 import matplotlib.pyplot as plt
 from  Grille import Grille
 import time 
