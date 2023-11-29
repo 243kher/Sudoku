@@ -1,7 +1,8 @@
 #main
-import Grille
-import time 
-    
+from Grille import Grille
+from Interface import SudokuGUI 
+import tkinter as tk
+
 t=Grille(9)
 t.creer_tableau()
 sudoku_valide = [
@@ -30,5 +31,7 @@ sudoku4 = [[2, 0, 1, 3], [1, 0, 0, 0], [0, 0, 2, 4], [0, 2, 0, 1]]
 
 print(t.creer_sudoku()) 
 
-
-print(m-n)
+if __name__ == "__main__":
+    interface = tk.Tk()
+    app = SudokuGUI(interface)
+    interface.mainloop()
